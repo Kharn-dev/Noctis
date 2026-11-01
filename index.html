@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NOCTIS — интерактивный гид для тех, кто хочет начать наблюдать ночное небо.">
+  <title>NOCTIS — Исследуй ночное небо</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="NOCTIS — начало">
+        <span class="logo-mark" aria-hidden="true"></span>
+        NOCTIS
+      </a>
+      <nav id="primary-navigation" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#objects">Объекты</a></li>
+          <li><a href="#start">Как начать</a></li>
+          <li><a href="#events">Календарь</a></li>
+          <li><a href="#kit">Снаряжение</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="mobile-menu-icon" aria-hidden="true"></span>
+      </button>
+      <a class="nav-cta" href="#start">Начать наблюдения</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Гид по ночному небу</div>
+          <h1>Посмотри вверх. Вселенная ближе, чем кажется.</h1>
+          <p class="hero-copy">
+            NOCTIS помогает сделать первый шаг в любительской астрономии:
+            разобраться, что искать в небе, как наблюдать и какое снаряжение действительно нужно.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#objects">Исследовать небо</a>
+            <a class="btn" href="#start">Как начать →</a>
+          </div>
+        </div>
+        <div class="sky-orbit" aria-label="Декоративная иллюстрация ночного неба">
+          <div class="planet"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="objects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">01 / Объекты</div>
+            <h2>С чего начать знакомство с небом</h2>
+          </div>
+          <p>Простые цели для первых наблюдений. Это демонстрационная подборка, а не актуальный прогноз видимости.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <span class="card-number">01</span>
+            <div class="card-icon">☾</div>
+            <h3>Луна</h3>
+            <p>Самый доступный объект для старта: кратеры и рельеф хорошо видны даже в небольшой оптике.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <div class="card-icon">◉</div>
+            <h3>Юпитер</h3>
+            <p>Яркая планета и удобная цель для знакомства с наблюдениями через бинокль или телескоп.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <div class="card-icon">✦</div>
+            <h3>Орион</h3>
+            <p>Узнаваемое созвездие, с которого удобно учиться находить характерные фигуры на небе.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">04</span>
+            <div class="card-icon">✧</div>
+            <h3>Звёздные скопления</h3>
+            <p>Хороший следующий шаг после созвездий — наблюдать группы звёзд и сравнивать их форму.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="start">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">02 / Первый шаг</div>
+            <h2>Наблюдать проще, чем кажется</h2>
+          </div>
+          <p>Не нужно покупать дорогой телескоп в первый же день. Начните с нескольких простых действий.</p>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <span>ШАГ 01</span>
+            <h3>Выберите место</h3>
+            <p>Найдите участок с открытым горизонтом и меньшим количеством искусственного света.</p>
+          </article>
+          <article class="step">
+            <span>ШАГ 02</span>
+            <h3>Дайте глазам привыкнуть</h3>
+            <p>Проведите 15–20 минут без яркого экрана, чтобы заметить больше слабых звёзд.</p>
+          </article>
+          <article class="step">
+            <span>ШАГ 03</span>
+            <h3>Найдите ориентир</h3>
+            <p>Начните с Луны или яркого созвездия и постепенно переходите к более слабым объектам.</p>
+          </article>
+          <article class="step">
+            <span>ШАГ 04</span>
+            <h3>Записывайте наблюдения</h3>
+            <p>Фиксируйте дату, место и то, что увидели. Так прогресс становится заметнее.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="events">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">03 / Календарь</div>
+            <h2>Астрономический календарь</h2>
+          </div>
+          <p>Примеры событий, которые можно использовать как идеи для наблюдений. Даты здесь демонстрационные.</p>
+        </div>
+
+        <div class="calendar">
+          <article class="event">
+            <div class="event-date">МАР<br>12</div>
+            <div>
+              <h3>Наблюдение Луны</h3>
+              <p>Ищите контраст рельефа вдоль линии терминатора.</p>
+            </div>
+          </article>
+          <article class="event">
+            <div class="event-date">АПР<br>04</div>
+            <div>
+              <h3>Вечер созвездий</h3>
+              <p>Попробуйте найти Орион и соседние яркие звёзды.</p>
+            </div>
+          </article>
+          <article class="event">
+            <div class="event-date">МАЙ<br>18</div>
+            <div>
+              <h3>Звёздное скопление</h3>
+              <p>Отличная возможность сравнить наблюдение глазами и в бинокль.</p>
+            </div>
+          </article>
+          <article class="event">
+            <div class="event-date">ИЮН<br>27</div>
+            <div>
+              <h3>Ночь под открытым небом</h3>
+              <p>Выберите тёмное место и попробуйте вести журнал наблюдений.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kit">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">04 / Снаряжение</div>
+            <h2>Что взять с собой</h2>
+          </div>
+          <p>Для первых наблюдений достаточно минимального набора. Главное — комфорт и тёмное небо.</p>
+        </div>
+
+        <div class="kit">
+          <div class="kit-panel">
+            <h3>Минимум</h3>
+            <ul class="kit-list">
+              <li>Тёплая одежда и удобное место для наблюдений</li>
+              <li>Красный фонарик, чтобы сохранить ночное зрение</li>
+              <li>Блокнот для заметок</li>
+              <li>Приложение-карта неба</li>
+            </ul>
+          </div>
+          <div class="kit-panel">
+            <h3>Следующий уровень</h3>
+            <ul class="kit-list">
+              <li>Полевой бинокль</li>
+              <li>Штатив для устойчивого изображения</li>
+              <li>Небольшой любительский телескоп</li>
+              <li>Простой журнал наблюдений</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta">
+          <div class="section-kicker">05 / Твоя первая ночь</div>
+          <h2>Открой небо не как картинку, а как место для исследования.</h2>
+          <p>Выбери одну цель, выйди на улицу и потрать несколько минут на то, чтобы просто смотреть вверх.</p>
+          <a class="btn btn-primary" href="#top">Вернуться к началу ↑</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <strong>NOCTIS</strong>
+      <span>Учебный проект · Лендинг об любительской астрономии</span>
+      <span>© 2026</span>
+    </div>
+  </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
