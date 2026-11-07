@@ -19,6 +19,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run site checks
+        run: python scripts/check_site.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
