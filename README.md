@@ -1,3 +1,4 @@
+![Deploy status](https://github.com/Kharn-dev/Noctis/actions/workflows/deploy.yml/badge.svg)
 # NOCTIS — исследуй ночное небо
 
 Учебный адаптивный лендинг о начале любительских астрономических наблюдений.
